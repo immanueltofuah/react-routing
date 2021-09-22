@@ -9,10 +9,12 @@ import ServiceDetails from "./ServiceDetails";
 function Router() {
   return (
     <BrowserRouter>
-      <Link to="/">Go to Home</Link>
-      <Link to="/About">Go to About</Link>
-      <Link to="/Contact">Go to Contact</Link>
-      <Link to="/Services">Go to Services</Link>
+     <div className="hit">
+     <Link className="tabs" to="/">Go to Home</Link>
+      <Link className="tabs"to="/About">Go to About</Link>
+      <Link className="tabs" to="/Contact">Go to Contact</Link>
+      <Link className="tabs" to="/Services">Go to Services</Link>
+     </div>
 
       <Route exact path="/" component={Home} />
       <Route path="/About" component={About} />

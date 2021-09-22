@@ -23,16 +23,17 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.tabs {
+  color: rgb(165, 17, 17);
+  text-decoration: none;
+  padding: 20px 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tabs:hover {
+  background-color: rgb(68, 5, 0);
+}
+.hit {
+  background-color: rgb(206, 74, 50);
+  /* height: 10vh; */
+  padding: 20px;
 }
