@@ -13,7 +13,7 @@ export default function Services() {
         natoque penatibus et magnis dis parturient montes, nascetur ridiculus
         mus. Interdum et malesuada fames ac ante ipsum primis in faucibus.
       </p>
-      <Link to="/Services/:201">goto sd</Link>
+      <Link to="/Services/:201">Go to ServiceDetails</Link>
     </div>
   );
 }
