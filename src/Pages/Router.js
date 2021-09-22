@@ -4,6 +4,7 @@ import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
 import Services from "./Services";
+import ServiceDetails from "./ServiceDetails";
 
 function Router() {
   return (
@@ -13,10 +14,11 @@ function Router() {
       <Link to="/Contact">Go to Contact</Link>
       <Link to="/Services">Go to Services</Link>
 
-      <Route exact="true" path="/" component={Home} />
+      <Route exact path="/" component={Home} />
       <Route path="/About" component={About} />
       <Route path="/Contact" component={Contact} />
-      <Route path="/Services" component={Services} />
+      <Route exact path="/Services" component={Services} />
+      <Route path="/ServiceDetails/:id" component={ServiceDetails}/>
     </BrowserRouter>
   );
 }
