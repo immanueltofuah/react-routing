@@ -3,7 +3,7 @@ import React from "react";
 export default function Services() {
   return (
     <div>
-      <h1>Home </h1>
+      <h1>Home Page </h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin feugiat
         metus lacus. Donec quis justo non dui placerat mattis. Mauris et sapien
